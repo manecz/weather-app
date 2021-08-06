@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="weather">
+            <div class="search">
+                <input type="text" id="search">
+                <button id="get"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="info">
+                <h2 id="city"></h2>
+                <p id="date"></p>
+                <h1 id="temperature"></h1>
+            </div>
+            <div class="icon">
+                <img id="icon" src="" alt="" width="30%">
+            </div>
+            <h3 id="description"></h3>
+            <br>
+            <br>
+            <h4 id="min_temp"></h4>
+            <h4 class="right" id="max_temp"></h4>
+            <hr>
+            <h4 id="wind"></h4>
+            <h4 class="right" id="humidity"></h4>
+            <hr>       
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
